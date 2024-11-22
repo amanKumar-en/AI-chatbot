@@ -102,7 +102,7 @@ function handleChatResponse(userMessage){
         <img src="loading.webp" alt="" id="load" width="40px">
         </div>`
         let aiChatBox = createChatBox(html, "ai-chat-box")
-        chatContainer.appendChild(aiChatBox) // to pass aiChatBox in argu. for -> jo v response aai ham uska text likh pai
+        chatContainer.appendChild(aiChatBox) // to pass aiChatBox in argu. for -> any response will come we authority to give the text
 
         generateResponse(aiChatBox)
 
